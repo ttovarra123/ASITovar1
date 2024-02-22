@@ -6,12 +6,8 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
-    <body>
-    <marquee></marquee><h1>Prueba ASI</h1></marquee>
-    </body>
-</html>
+<jsp:include page="includes/header.jsp"/>
+
+<jsp:include page="includes/body.jsp"/>
+
+<jsp:include page="includes/footer.jsp"/>
